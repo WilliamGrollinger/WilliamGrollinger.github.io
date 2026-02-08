@@ -13,7 +13,8 @@
         header {
             background-color: white;
             color: black;
-            padding: 40px;
+            padding: 20px;
+            padding-bottom: 5px;
             text-align: center;
         }
 
@@ -21,8 +22,10 @@
             color: black;
             padding: 15px;
             text-align: center;
-            position: sticky;
             top: 0;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8px;
+            display: inline-block;
         }
 
         nav a {
@@ -37,19 +40,26 @@
         }
 
         section {
-            padding: 40px;
+            padding: 20px;
+            padding-top: 5px;
             max-width: 800px;
             margin: auto;
+        }
+
+        .nav-container {
+          text-align: center;
         }
     </style>
 </head>
 
 <body>
 
-    <nav>
-        <a href="index.html">About Me</a>
-        <a href="Projects_page.html">My Projects</a>
-    </nav>
+    <div class="nav-container">
+        <nav>
+            <a href="index.html">About me</a>
+            <a href="Projects_page.html">My Projects</a>
+        </nav>
+    </div>
 
      <header>
         <h1>Research Projects</h1>
@@ -63,7 +73,7 @@
             <a href="https://github.com/WilliamGrollinger/Master-Thesis-UCL-MIT" target="_blank">Repository →</a>
         </p>
         
-        <img src="ILL_Flow_Vorticity.jpg" alt="Professional picture">
+        <img src="ILL_Flow_Vorticity.png" alt="Flow Picture">
     </section>
 
 </body>
